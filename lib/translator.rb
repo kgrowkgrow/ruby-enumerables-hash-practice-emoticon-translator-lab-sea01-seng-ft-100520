@@ -12,6 +12,7 @@ def load_library(library)
 end
 
 def get_japanese_emoticon(library, emoticon)
+<<<<<<< HEAD
   english_emoticon = nil 
    load_library(library).each do |key, value|
     if emoticon == value[:english]
@@ -42,3 +43,22 @@ def get_english_meaning(library, emoticon)
   end 
 end
 
+=======
+  daniel = nil 
+  
+  load_library(library).each do |key, value|
+    if emoticon == value[:english]
+      daniel = value[:japanese] 
+   # else puts "Sorry, that emoticon was not found"
+    end
+    
+  end 
+  daniel
+end
+
+def get_english_meaning
+  # code goes here
+end
+
+#(1..10).find           { |i| i % 5 == 0 && i % 7 == 0 }   #=> nil
+>>>>>>> be452901e66223984ba23687315f346c6e7137fe
