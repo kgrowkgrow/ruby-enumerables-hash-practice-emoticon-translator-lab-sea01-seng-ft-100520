@@ -7,7 +7,6 @@ def load_library(library)
   emote_hash.each do |key, value|
     inner_hash = {:english => value[0], :japanese => value[1]}
     hash_with_language[key] = inner_hash
-    binding.pry
   end 
   hash_with_language
 end
