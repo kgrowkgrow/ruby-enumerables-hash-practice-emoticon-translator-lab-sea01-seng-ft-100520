@@ -61,4 +61,4 @@ def get_english_meaning
 end
 
 #(1..10).find           { |i| i % 5 == 0 && i % 7 == 0 }   #=> nil
->>>>>>> be452901e66223984ba23687315f346c6e7137fe
+
