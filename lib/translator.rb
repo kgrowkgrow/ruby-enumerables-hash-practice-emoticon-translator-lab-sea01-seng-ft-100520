@@ -13,7 +13,7 @@ def load_library(library)
 end
 
 def get_japanese_emoticon(library, emoticon)
-<<<<<<< HEAD
+
   english_emoticon = nil 
    load_library(library).each do |key, value|
     if emoticon == value[:english]
@@ -44,7 +44,7 @@ def get_english_meaning(library, emoticon)
   end 
 end
 
-=======
+
   daniel = nil 
   
   load_library(library).each do |key, value|
