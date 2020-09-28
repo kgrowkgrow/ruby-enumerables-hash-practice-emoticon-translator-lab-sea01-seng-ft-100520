@@ -49,7 +49,6 @@ end
   load_library(library).each do |key, value|
     if emoticon == value[:english]
       daniel = value[:japanese] 
-   # else puts "Sorry, that emoticon was not found"
     end
     
   end 
